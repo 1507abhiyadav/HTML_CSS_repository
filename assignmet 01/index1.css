@@ -1,0 +1,18 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+div{
+    /* display: inline-block; */
+    position:absolute;
+    width: 50%;
+    height: 50%;
+}
+.part1{top: 0;  left: 0;}
+.part2{top: 0; left: 50%; }
+.part3{top: 50%; left: 0;}  
+.part4{top: 50%; left: 50%; border: 1px solid blue;}
+h1{
+    bottom: 0px;
+}
